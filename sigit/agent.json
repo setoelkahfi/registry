@@ -1,0 +1,22 @@
+{
+  "id": "sigit",
+  "name": "siGit",
+  "version": "0.1.1",
+  "description": "A coding agent for smbCloud that runs entirely on your machine.",
+  "repository": "https://github.com/getsigit/sigit",
+  "website": "https://github.com/getsigit/sigit",
+  "authors": ["Seto Elkahfi <hej@setoelkahfi.se>"],
+  "license": "Apache-2.0",
+  "distribution": {
+    "binary": {
+      "darwin-aarch64": {
+        "archive": "https://github.com/getsigit/sigit/releases/download/v0.1.1/sigit-darwin-aarch64.tar.gz",
+        "cmd": "./sigit"
+      },
+      "darwin-x86_64": {
+        "archive": "https://github.com/getsigit/sigit/releases/download/v0.1.1/sigit-darwin-x86_64.tar.gz",
+        "cmd": "./sigit"
+      }
+    }
+  }
+}
